@@ -22,4 +22,16 @@ function App() {
   );
 }
 
+import React from 'react';
+import LandingDashboard from './LandingDashboard';
+
+const App = () => {
+    return (
+        <div>
+            <LandingDashboard />
+        </div>
+    );
+};
+
+
 export default App;
